@@ -5,7 +5,7 @@ import styles from "./popularjobs.style";
 import { useRouter } from "expo-router";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { COLORS, SIZES } from "@app/constants";
-import { FlatList } from "react-native-web";
+import { FlatList } from "react-native";
 import PopularJobCard from "@app/components/common/cards/popular/PopularJobCard";
 import useFetch from "@app/hook/useFetch";
 

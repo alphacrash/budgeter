@@ -2,7 +2,7 @@ import React from "react";
 import { Text, Image } from "react-native";
 
 import styles from "./screenheader.style";
-import { TouchableOpacity } from "react-native-web";
+import { TouchableOpacity } from "react-native";
 
 const ScreenHeaderBtn = ({ iconUrl, dimension, handlePress }) => {
   return (
